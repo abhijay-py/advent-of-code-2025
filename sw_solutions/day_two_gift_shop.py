@@ -1,7 +1,7 @@
 import os
 
 here = os.path.dirname(os.path.abspath(__file__))
-filename = "d2_input.txt"
+filename = "input_files/d2_input.txt"
 
 def get_pairs():
     with open(os.path.join(here, filename)) as f:

@@ -1,7 +1,7 @@
 import os
 
 here = os.path.dirname(os.path.abspath(__file__))
-filename = "d3_input.txt"
+filename = "input_files/d3_input.txt"
 
 def get_data():
     with open(os.path.join(here, filename)) as f:

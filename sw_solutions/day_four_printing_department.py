@@ -2,7 +2,7 @@ import os
 from collections import deque
 
 here = os.path.dirname(os.path.abspath(__file__))
-filename = "d4_input.txt"
+filename = "input_files/d4_input.txt"
 
 def get_data():
     with open(os.path.join(here, filename)) as f:

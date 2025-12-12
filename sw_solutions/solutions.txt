@@ -1,0 +1,26 @@
+
+Advent of Code 2025 Solutions:
+
+Day 1 Solutions:
+Initial Password: 1066
+New Password: 6223
+
+Day 2 Solutions:
+Sum of Basic Invalid Gift IDs: 28846518423
+Sum of Advanced Invalid Gift IDs: 31578210022
+
+Day 3 Solutions:
+Total Two Digit Joltage: 17085
+Total Twelve Digit Joltage: 169408143086082
+
+Day 4 Solutions:
+First Run Accessible Paper Count: 1549
+Total Accessible Paper Count: 8887
+
+Day 5 Solutions:
+Fresh Ingredients Count: 775
+Total Count of Possible Fresh Ingredients: 350684792662845
+
+Day 6 Solutions:
+Homework Result: 6957525317641
+Corrected Homework Result: 13215665360076

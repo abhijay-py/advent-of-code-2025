@@ -1,7 +1,7 @@
 import os
 
 here = os.path.dirname(os.path.abspath(__file__))
-filename = "d1_input.txt"
+filename = "input_files/d1_input.txt"
 direction_to_value = {'L': -1, 'R': 1}
 
 def get_data():
