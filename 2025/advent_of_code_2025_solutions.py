@@ -4,6 +4,7 @@ from day_three_lobby import day_three_solution
 from day_four_printing_department import day_four_solution
 from day_five_cafeteria import day_five_solution
 from day_six_trash_compactor import day_six_solution
+from day_seven_laboratories import day_seven_solution
 
 def output_all_solutions():
     print("\nAdvent of Code 2025 Solutions:", end="\n\n")
@@ -20,6 +21,8 @@ def output_all_solutions():
     day_five_solution()
     print("\nDay 6 Solutions:")
     day_six_solution()
+    print("\nDay 7 Solutions:")
+    day_seven_solution()
     print()
 
 def main():
