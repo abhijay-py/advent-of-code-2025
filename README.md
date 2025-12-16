@@ -1,2 +1,2 @@
-# advent-of-code-2025
-FPGA and regular programming solutions to the advent of code 2025 problems.
+# advent-of-code
+Solutions to the advent of code problems over the years.
