@@ -1,0 +1,36 @@
+import os
+
+here = os.path.dirname(os.path.abspath(__file__))
+filename = "input_files/d10_input.txt"
+
+def get_data():
+    with open(os.path.join(here, filename)) as f:
+        data = f.readlines()
+    machine_num = 0
+    machine_info = {}
+    for line in data:
+        split_line = line.split()
+        line_dict = {}
+        line_dict['light_goal'] = [int(i) for i in range(len(split_line[0][1:-1])) if split_line[0][i + 1] == '#']
+        line_dict['num_switches'] = len(split_line[0][1:-1])
+        line_dict['switches'] = [tuple(int(j) for j in i[1:-1].split(',')) for i in split_line[1:-1]]
+        line_dict['joltage'] = [int(i) for i in split_line[-1][1:-1].split(',')]
+        machine_info[machine_num] = line_dict
+        machine_num += 1
+    return machine_info
+
+def part_one():
+    machine_info = get_data()
+
+def part_two():
+    machine_info = get_data()
+
+def day_ten_solution():
+    part_one()
+    part_two()
+   
+def main():
+    day_ten_solution()
+    
+if __name__ == "__main__":
+    main()
